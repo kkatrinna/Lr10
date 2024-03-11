@@ -1,9 +1,3 @@
-package practice.reverseArray;
-
-import net.sf.saxon.ma.arrays.ArrayFunctionSet;
-
-import java.util.Arrays;
-import java.util.Scanner;
 
 public class ReverseArray {
 
