@@ -7,6 +7,15 @@ import java.util.Scanner;
 
 public class ReverseArray {
 
+public static String[] reverse(String[] strings) {
+        int start = 0;
+        int end = strings.length-1;
+        while (start<end) {
+            String a = strings[start];
+            strings[start] = strings[end];
+            strings[end] = a;
+            start++;
+            end--;
     public static String[] reverse(String[] strings) {
         int start = 0;
         int end = strings.length-1;
